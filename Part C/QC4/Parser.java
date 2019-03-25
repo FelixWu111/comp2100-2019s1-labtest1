@@ -7,13 +7,12 @@ public class Parser {
         _tokeniser = tokeniser;
     }
 
-    public Exp parse() {
+    public Bool parse() {
         // TODO: Complete this method
         if (_tokeniser.hasNext()) {
             if (_tokeniser.next().type == TokenType.LEFTBRACKET) {
 
-
-            }
+            } 
         }
 
         return null;
