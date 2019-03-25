@@ -1,9 +1,9 @@
 public class QB1Test {
 	public static void main(String[] args) {
-		BST<Integer> tree1 = new BST<Integer>();
-		BST<Integer> tree2 = new BST<Integer>();
-		BST<Integer> tree3 = new BST<Integer>();
-		BST<Integer> tree4 = new BST<Integer>();
+		BST tree1 = new BST();
+		BST tree2 = new BST();
+		BST tree3 = new BST();
+		BST tree4 = new BST();
 
 
 		for (int i = 1; i < 10; i++)
