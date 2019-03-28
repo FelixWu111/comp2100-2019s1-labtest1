@@ -16,8 +16,8 @@ public class QA4Test {
 		List<Integer> output3 = new ArrayList<Integer>();
 		List<Integer> input3 = new ArrayList<Integer>();
 		input3.add(3);
-		input.add(1);
-		input.add(2);
+		input3.add(1);
+		input3.add(2);
 		Collections.copy(output3, input3);
 		System.out.println(output.get(0));
 
