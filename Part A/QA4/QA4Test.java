@@ -11,7 +11,7 @@ public class QA4Test {
 		input.add(5);
 		input.add(3);
 		Collections.copy(output, input);
-		System.out.println(output.get(0));
+		System.out.println(output.get(0));  // this should be 5
 
 		List<Integer> output3 = new ArrayList<Integer>();
 		List<Integer> input3 = new ArrayList<Integer>();
@@ -19,7 +19,7 @@ public class QA4Test {
 		input3.add(1);
 		input3.add(2);
 		Collections.copy(output3, input3);
-		System.out.println(output3.get(0));
+		System.out.println(output3.get(0));  // this should be 3
 
 		List<String> output2 = new ArrayList<String>();
 		List<Long> input2 = new ArrayList<Long>();
