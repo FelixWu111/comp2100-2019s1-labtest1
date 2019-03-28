@@ -19,7 +19,7 @@ public class QA4Test {
 		input3.add(1);
 		input3.add(2);
 		Collections.copy(output3, input3);
-		System.out.println(output.get(0));
+		System.out.println(output3.get(0));
 
 		List<String> output2 = new ArrayList<String>();
 		List<Long> input2 = new ArrayList<Long>();
