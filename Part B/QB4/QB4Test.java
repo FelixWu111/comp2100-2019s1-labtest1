@@ -20,15 +20,15 @@ public class QB4Test {
 
         // Test properties together
         tree.search(11).setColour(false);
-        System.out.println("Test 4: " + ((!tree.testProp1() && tree.testProp2() && tree.testProp3()) ? "PASSED" : "FAILED"));
+        System.out.println("Test 4: " + ((tree.testProp1() && tree.testProp2() && !tree.testProp3()) ? "PASSED" : "FAILED"));
         tree.search(11).setColour(true);
 
         tree.search(19).l.setColour(true);
-        System.out.println("Test 5: " + ((!tree.testProp2() && !tree.testProp3()) ? "PASSED" : "FAILED"));
+        System.out.println("Test 5: " + ((!tree.testProp1() && !tree.testProp2()) ? "PASSED" : "FAILED"));
         tree.search(19).l.setColour(false);
 
         tree.search(7).setColour(true);
-        System.out.println("Test 6: " + ((tree.testProp1() && !tree.testProp2() && !tree.testProp3()) ? "PASSED" : "FAILED"));
+        System.out.println("Test 6: " + ((!tree.testProp1() && !tree.testProp2() && tree.testProp3()) ? "PASSED" : "FAILED"));
         tree.search(7).setColour(false);
     }
 }
