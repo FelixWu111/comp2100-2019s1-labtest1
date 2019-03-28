@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class QA3Test {
-    // Test code
+	// Test code
 	public static void main(String[] args) {
 		List<Integer> intList = new ArrayList<Integer>();
 		intList.add(2);
@@ -21,9 +21,9 @@ public class QA3Test {
 		doubleList.add(1.5);
 		doubleList.add(8.23);
 		doubleList.add(3.32);
-		double frval = Max.max(intList, 0, 2);
+		double frval = Max.max(doubleList, 0, 2);
 		System.out.println((frval==5.1));
-		frval = Max.max(intList, 0, intList.size());
+		frval = Max.max(doubleList, 0, doubleList.size());
 		System.out.println((frval==8.23));
 	}
 }
